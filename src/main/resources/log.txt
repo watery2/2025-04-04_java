@@ -1,0 +1,7 @@
+error: [5, Kauno g. 5, , 95000, 6, butas, false]
+error: [6, J. Basanavičiaus g. 9, 45.3, invalid_kaina, 5, butas, false]
+error: [10, , 52.0, 112000, 6, butas, false]
+error: [11, Kęstučio g. 8, 60.1, abc, 10, butas, false]
+error: [14, Maironio g. 4, 92.3, 200000, 7, , false]
+error: [16, Rasos g. 12, NaN, 180000, 8, butas, false]
+error: [19, Vilniaus g. 10, 65.5, 125000, NaN, butas, false]

@@ -39,6 +39,7 @@ public class Reader {
                 if (values[1].isEmpty() || values[2].isEmpty() || values[3].isEmpty() || values[4].isEmpty() || values[5].isEmpty() || values[6].isEmpty())
                 {
                     klaidos++;
+                    ErrorLogger.error(Arrays.toString(values));
                     continue;
                 }
 
@@ -50,6 +51,7 @@ public class Reader {
                 }catch (Exception e)
                 {
                     klaidos++;
+                    ErrorLogger.error(Arrays.toString(values));
                     continue;
                 }
 
@@ -59,6 +61,7 @@ public class Reader {
                 }catch (Exception e)
                 {
                     klaidos++;
+                    ErrorLogger.error(Arrays.toString(values));
                     continue;
                 }
 
@@ -68,6 +71,7 @@ public class Reader {
                 }catch (Exception e)
                 {
                     klaidos++;
+                    ErrorLogger.error(Arrays.toString(values));
                     continue;
                 }
 
@@ -84,12 +88,14 @@ public class Reader {
                 else
                 {
                     klaidos++;
+                    ErrorLogger.error(Arrays.toString(values));
                     continue;
                 }
 
                 if (area.isNaN() || price.isNaN() || price.isNaN())
                 {
                     klaidos++;
+                    ErrorLogger.error(Arrays.toString(values));
                     continue;
                 }
 
